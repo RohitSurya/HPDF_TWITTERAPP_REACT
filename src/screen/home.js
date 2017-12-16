@@ -58,11 +58,12 @@ export default class Home extends React.Component {
                    <Text style={{fontWeight:'bold'}}>Rohit</Text>
                    <Text style={{color:'grey'}}>@Trip</Text>
                  </Body>
-                 <Symbol />
+                 
 
                     <Text style={{color:'grey'}}>24m</Text>
 
                </Left>
+               <Symbol />
              </CardItem>
 
              <CardItem cardBody>
