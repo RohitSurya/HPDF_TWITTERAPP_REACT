@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Image, TouchableOpacity, Text} from 'react-native';
-import { Container, Header,  Drawer, Content, Card, Separator, CardItem, Thumbnail, List, ListItem, Left, Body, Right, Button,  Title } from 'native-base';
+import { Container, Header,  Drawer, Footer, Content, Card, Separator, CardItem, Thumbnail, List, ListItem, Left, Body, Right, Button,  Title } from 'native-base';
 import  IonIcon from 'react-native-vector-icons/Ionicons';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
@@ -23,22 +23,21 @@ export default class menu extends Component {
                 <Left>
                     <Image source={require('./src/screen/Img/pro.jpg')}
                      style={{width: 50, height: 50,borderRadius:50,paddingTop:10}} />
-                   </Left>
+                </Left>
                     <Body>
                       <Text>Rohit Surya</Text>
                       <Text note>@rohit97</Text>
                     </Body>
-                    </ListItem>
-         
-         <ListItem>
-         <Left>
+         </ListItem>
+          <ListItem>
+<Left>
          <Text>690<Text note> Following</Text></Text>
         </Left>
          <Body><Text>652<Text note> Followers</Text></Text>
+
           </Body>
-          </ListItem>              
-             
-               <ListItem icon>
+                </ListItem>
+                <ListItem icon>
                 <Left>
                   <IonIcon name="ios-person-outline" size={22} />
                 </Left>
@@ -46,7 +45,7 @@ export default class menu extends Component {
                   <Text>Profile</Text>
                 </Body>
                 </ListItem>
-                
+
                 <ListItem icon>
                 <Left>
                   <IonIcon name="ios-list-outline" size={22} />
@@ -55,8 +54,8 @@ export default class menu extends Component {
                   <Text>Lists</Text>
                 </Body>
                 </ListItem>
-               
-                 <ListItem icon>
+
+                <ListItem icon>
                 <Left>
                   <IonIcon name="ios-flash-outline" size={22} />
                 </Left>
@@ -64,8 +63,8 @@ export default class menu extends Component {
                   <Text>Moments</Text>
                 </Body>
                 </ListItem>
-               
-               <ListItem icon>
+
+                <ListItem icon>
                 <Left>
                   <IonIcon name="ios-browsers-outline" size={22} />
                 </Left>
@@ -73,16 +72,16 @@ export default class menu extends Component {
                   <Text>Highlights</Text>
                 </Body>
               </ListItem>
-             
-             <ListItem>
+
+              <ListItem>
               <Text>Settings and privacy</Text>
               </ListItem>
-             
-             <ListItem>
+
+              <ListItem>
               <Text>Help Centre</Text>
-              </ListItem> 
+              </ListItem>
             </List>
-          </Content>
+            </Content>
 
               <Footer style={{backgroundColor:'white'}}>
               <Left  style={{ padding:5}}>
